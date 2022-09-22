@@ -77,5 +77,28 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": []
+  "burgers": [
+    {
+      "nome": "joão",
+      "carne": "Veggie burger",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Cheddar",
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "Matheus",
+      "carne": "Maminha",
+      "pao": "",
+      "opcionais": [
+        "Cheddar",
+        "Salame"
+      ],
+      "status": "Solicitado",
+      "id": 2
+    }
+  ]
 }

@@ -1,6 +1,21 @@
 <template>
-  <div class="home"></div>
-  <h1>Home</h1>
+  <Banner />
+  <div>
+    <div class="main-container">
+      <h1>Monte o seu burger:</h1>
+      <BurgerForm />
+    </div>
+  </div>
 </template>
 
-<script></script>
+<script>
+import Banner from '../components/Banner.vue'
+import BurgerForm from '../components/BurgerForm.vue'
+export default {
+  name: 'Home',
+  components: {
+    Banner,
+    BurgerForm
+  }
+}
+</script>
